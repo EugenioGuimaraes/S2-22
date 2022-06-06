@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    margin: 10vh;
 }
 .container{
     max-width: 1200px;
@@ -40,6 +41,7 @@ body{
 .menu-nav ul li a:hover {
   color: #757a80;
 }
+
 .menu-link-button {
   text-decoration: none;
   height: 48px;
@@ -50,6 +52,11 @@ body{
   align-items: center;
   border-radius: 4px;
 }
+
+.menu-link-button:hover {
+    background-color: #3d58c7;
+}
+
 .container-card{
   max-width: 1200px;
   margin: 0 auto;
