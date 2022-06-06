@@ -1,11 +1,13 @@
 body{
     font-family: sans-serif;
-    margin: 0 0 10vh 0;
+}
+
+main{
+    margin-bottom: 10vh;
 }
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    /* background-color: blue; */
 }
 .container a{
     text-decoration: none;
@@ -101,4 +103,9 @@ body{
 
 .botao-carrinho:hover{
     background-color: #3d58c7;
+}
+
+.rodape{
+    margin-bottom: 0 auto;
+    text-align: center;
 }
