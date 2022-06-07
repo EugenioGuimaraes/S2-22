@@ -69,7 +69,9 @@ main{
 }
 .card{
   max-width: 290px;
+  width: 24%;
   margin: 1vh 0;
+  margin-bottom: 16px;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -89,10 +91,16 @@ main{
     padding: 1vw;
     font-weight: 600;
 }
-.botao-carrinho{
-    margin: 1vw;
+
+button{
+    border: none;
+    outline:none;
+    background-color: #fff;
+    width: 100%;
+}
+.botao-carrinho a{
     text-decoration: none;
-    height: 48px;
+    height: 5vh;
     background-color: #4c6ef5;
     color: #fff;
     display: flex;
@@ -101,7 +109,7 @@ main{
     border-radius: 4px;
 }
 
-.botao-carrinho:hover{
+.botao-carrinho a:hover{
     background-color: #3d58c7;
 }
 
